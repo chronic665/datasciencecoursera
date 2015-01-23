@@ -19,7 +19,6 @@ makeCacheMatrix <- function(original = matrix()) {
         original <<- y
         ## clear cache
         inversion <<- NULL
-        
     }
     
     ## retrieve the matrix value
